@@ -21,7 +21,7 @@ checkpoints/
 checkpoints_tuned/
 
 # Generated outputs
-data/output_image/
+#data/output_image/
 *.npy
 
 # OS files
