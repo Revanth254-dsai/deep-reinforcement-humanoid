@@ -1,0 +1,9 @@
+# Main project runtime - Python 3.10
+# Versions verified on the working end-to-end setup.
+
+numpy==1.26.4
+opencv-python==4.10.0.84
+pybullet==3.2.6
+gymnasium==0.29.1
+torch==2.14.0
+matplotlib==3.10.9

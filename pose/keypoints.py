@@ -12,8 +12,24 @@ sys.path.append(os.path.join(OPENPOSE_DIR, "build", "python", "openpose"))
 dll_paths = [
     os.path.join(OPENPOSE_DIR, "build", "x64", "Release"),
     os.path.join(OPENPOSE_DIR, "build", "bin"),
-    os.path.join(OPENPOSE_DIR, "3rdparty", "caffe", "bin"),
+    os.path.join(
+        OPENPOSE_DIR,
+        "3rdparty",
+        "windows",
+        "caffe",
+        "bin"
+    ),
+    os.path.join(
+        OPENPOSE_DIR,
+        "3rdparty",
+        "windows",
+        "opencv",
+        "x64",
+        "vc15",
+        "bin"
+    ),
 ]
+
 os.environ["PATH"] += ";" + ";".join(dll_paths)
 
 # Import OpenPose

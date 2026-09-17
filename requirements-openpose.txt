@@ -1,0 +1,6 @@
+# OpenPose worker runtime - Python 3.7
+# pyopenpose itself is provided by the local OpenPose build
+# and is not installed from PyPI.
+
+numpy==1.21.6
+opencv-python==4.5.5.64
